@@ -94,9 +94,9 @@ body {
 }
 
 .hero.is-light {
-  background: var(--background-secondary);
-  border-top: 1px solid var(--border-color);
-  border-bottom: 1px solid var(--border-color);
+  background: #ffffff;
+  border-top: none;
+  border-bottom: none;
 }
 
 .hero-body {
@@ -341,10 +341,42 @@ body {
   margin-bottom: 1.5rem;
 }
 
+.realworld-template {
+  margin: 1.5rem 0 2rem;
+}
+
+.realworld-template-title {
+  margin-bottom: 0.6rem !important;
+  text-align: center;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.realworld-media-placeholder {
+  width: 100%;
+  min-height: 170px;
+  border: 2px dashed var(--border-color);
+  border-radius: var(--border-radius);
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-light);
+  font-size: 0.95rem;
+}
+
+.realworld-media-video {
+  width: 100%;
+  height: auto;
+  border-radius: var(--border-radius);
+  border: 1px solid var(--border-color);
+  background: #000;
+}
+
 /* Footer Improvements */
 .footer {
-  background: var(--background-secondary);
-  border-top: 1px solid var(--border-color);
+  background: #ffffff;
+  border-top: none;
   padding: 3rem 1.5rem;
 }
 
