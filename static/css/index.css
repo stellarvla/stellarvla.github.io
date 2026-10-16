@@ -783,3 +783,65 @@ a:focus {
 
 
 
+
+/* Public author and affiliation information. */
+.publication-authors .author-block {
+  display: inline-block;
+  margin: 0.2rem 0.45rem;
+}
+.publication-authors sup,
+.publication-affiliations sup {
+  margin-left: 0.1em;
+}
+.publication-affiliations {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.45rem 1.25rem;
+  max-width: 850px;
+  margin: 0 auto;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+.affiliation-block {
+  display: inline-block;
+}
+.publication-correspondence {
+  margin-top: 0.8rem;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+/* Tighten the gap between the author header and teaser video. */
+.publication-intro > .hero-body {
+  padding-bottom: 1rem;
+}
+.teaser .hero-body {
+  padding-top: 0.5rem;
+}
+
+/* Compact spacing between the research sections. */
+#main-content > .section {
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
+}
+#main-content > .teaser .hero-body {
+  padding-bottom: 1.5rem;
+}
+#main-content > .section .title.is-3 {
+  margin-bottom: 1.25rem !important;
+  padding-bottom: 0.75rem;
+}
+.footer {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+@media screen and (max-width: 768px) {
+  #main-content > .section {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+  }
+  #main-content > .teaser .hero-body {
+    padding-bottom: 1rem;
+  }
+}

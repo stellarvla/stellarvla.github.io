@@ -6,13 +6,13 @@
   
   <!-- Primary Meta Tags -->
   <!-- TODO: Replace with your paper title and author names -->
-  <meta name="title" content="Continually Evolving Skill Knowledge in Vision Language Action Model - Anonymous Authors">
+  <meta name="title" content="Continually Evolving Skill Knowledge in Vision Language Action Model - Yuxuan Wu, Guangming Wang, Zhiheng Yang, Tianchen Deng, Maoqing Yao, Brian Sheil, Hesheng Wang">
   <!-- TODO: Write a compelling 150-160 character description of your research -->
   <meta name="description" content="Stellar VLA introduces knowledge-driven continual learning for VLAs, improving final success rates by over 50% on LIBERO and real-world tasks.">
   <!-- TODO: Add 5-10 relevant keywords for your research area -->
   <meta name="keywords" content="vision language action model, continual learning, skill knowledge, knowledge evolution, expert routing, LIBERO, robot learning">
   <!-- TODO: List all authors -->
-  <meta name="author" content="Anonymous Authors">
+  <meta name="author" content="Yuxuan Wu, Guangming Wang, Zhiheng Yang, Tianchen Deng, Maoqing Yao, Brian Sheil, Hesheng Wang">
   <meta name="robots" content="index, follow">
   <meta name="language" content="English">
   
@@ -25,14 +25,13 @@
   <!-- TODO: Same as description above -->
   <meta property="og:description" content="Stellar VLA introduces knowledge-driven continual learning for VLAs, improving final success rates by over 50% on LIBERO and real-world tasks.">
   <!-- TODO: Replace with your actual website URL -->
-  <meta property="og:url" content="https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE">
+  <meta property="og:url" content="https://stellarvla.github.io/">
   <!-- TODO: Create a 1200x630px preview image and update path -->
   <meta property="og:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Continually Evolving Skill Knowledge in Vision Language Action Model - Research Preview">
-  <meta property="article:published_time" content="2024-01-01T00:00:00.000Z">
-  <meta property="article:author" content="Anonymous Authors">
+  <meta property="article:author" content="Yuxuan Wu, Guangming Wang, Zhiheng Yang, Tianchen Deng, Maoqing Yao, Brian Sheil, Hesheng Wang">
   <meta property="article:section" content="Research">
   <meta property="article:tag" content="vision language action model">
   <meta property="article:tag" content="continual learning">
@@ -53,10 +52,16 @@
 
   <!-- Academic/Research Specific -->
   <meta name="citation_title" content="Continually Evolving Skill Knowledge in Vision Language Action Model">
-  <meta name="citation_author" content="Anonymous, Author">
-  <meta name="citation_publication_date" content="2024">
-  <meta name="citation_conference_title" content="CONFERENCE_NAME">
-  <meta name="citation_pdf_url" content="https://YOUR_DOMAIN.com/static/pdfs/paper.pdf">
+  <meta name="citation_author" content="Wu, Yuxuan">
+  <meta name="citation_author" content="Wang, Guangming">
+  <meta name="citation_author" content="Yang, Zhiheng">
+  <meta name="citation_author" content="Deng, Tianchen">
+  <meta name="citation_author" content="Yao, Maoqing">
+  <meta name="citation_author" content="Sheil, Brian">
+  <meta name="citation_author" content="Wang, Hesheng">
+  <meta name="citation_publication_date" content="2025">
+  <meta name="citation_journal_title" content="arXiv preprint arXiv:2511.18085">
+  <meta name="citation_pdf_url" content="https://arxiv.org/pdf/2511.18085">
   
   <!-- Additional SEO -->
   <meta name="theme-color" content="#2563eb">
@@ -73,7 +78,7 @@
 
 
   <!-- TODO: Replace with your paper title and authors -->
-  <title>Continually Evolving Skill Knowledge in Vision Language Action Model - Anonymous Authors | Academic Research</title>
+  <title>Continually Evolving Skill Knowledge in Vision Language Action Model - Yuxuan Wu, Guangming Wang, Zhiheng Yang, Tianchen Deng, Maoqing Yao, Brian Sheil, Hesheng Wang | Academic Research</title>
   
   <!-- Favicon and App Icons -->
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
@@ -110,71 +115,142 @@
   
   <!-- Structured Data for Academic Papers -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "ScholarlyArticle",
-    "headline": "Continually Evolving Skill Knowledge in Vision Language Action Model",
-    "description": "Stellar VLA introduces knowledge-driven continual learning for VLAs, improving final success rates by over 50% on LIBERO and real-world tasks.",
-    "author": [
-      {
-        "@type": "Person",
-        "name": "Anonymous Author",
-        "affiliation": {
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "headline": "Continually Evolving Skill Knowledge in Vision Language Action Model",
+  "description": "Stellar VLA introduces knowledge-driven continual learning for VLAs, improving final success rates by over 50% on LIBERO and real-world tasks.",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Yuxuan Wu",
+      "affiliation": [
+        {
           "@type": "Organization",
-          "name": "INSTITUTION_NAME"
-        }
-      },
-      {
-        "@type": "Person",
-        "name": "Anonymous Author",
-        "affiliation": {
+          "name": "Shanghai Jiao Tong University"
+        },
+        {
           "@type": "Organization",
-          "name": "Anonymous Institution"
+          "name": "Shanghai Innovation Institute"
         }
-      }
-    ],
-    "datePublished": "2024-01-01",
-    "publisher": {
-      "@type": "Organization",
-      "name": "CONFERENCE_OR_JOURNAL_NAME"
+      ]
     },
-    "url": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE",
-    "image": "https://YOUR_DOMAIN.com/static/images/social_preview.png",
-    "keywords": ["vision language action model", "continual learning", "skill knowledge", "expert routing", "robot learning"],
-    "abstract": "Vision-language-action (VLA) models show promising knowledge accumulation ability from pretraining, yet continual learning in VLA remains challenging, especially for efficient adaptation. Existing continual imitation learning (CIL) methods often rely on additional parameters or external modules, limiting scalability for large VLA models. We propose Stellar VLA, a knowledge-driven CIL framework without increasing network parameters. Two progressively extended variants are designed: T-Stellar for flat task-centric modeling and TS-Stellar for hierarchical task-skill structure. Stellar VLA enables self-evolving knowledge learning by jointly optimizing task representations and a learned knowledge space. We propose a knowledge-guided expert routing mechanism conditioned on knowledge relation and Top-K semantic embeddings, enabling task specialization without increasing model size. Experiments on the LIBERO benchmark achieve state-of-the-art performance among both VLA and CIL baselines, using only 1% data replay. Real-world evaluation on a dual-arm platform with distinct embodiment and scene configurations validates effective knowledge transfer. TS-Stellar excels in hierarchical manipulation, and visualizations reveal robust knowledge retention and task discovery. ",
-    "citation": "BIBTEX_CITATION_HERE",
-    "isAccessibleForFree": true,
-    "license": "https://creativecommons.org/licenses/by/4.0/",
-    "mainEntity": {
-      "@type": "WebPage",
-      "@id": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE"
+    {
+      "@type": "Person",
+      "name": "Guangming Wang",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "University of Cambridge"
+        }
+      ]
     },
-    "about": [
-      {
-        "@type": "Thing",
-        "name": "RESEARCH_AREA_1"
-      },
-      {
-        "@type": "Thing", 
-        "name": "RESEARCH_AREA_2"
-      }
-    ]
-  }
+    {
+      "@type": "Person",
+      "name": "Zhiheng Yang",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Shanghai Jiao Tong University"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "name": "Tianchen Deng",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Shanghai Jiao Tong University"
+        },
+        {
+          "@type": "Organization",
+          "name": "Nanyang Technological University"
+        },
+        {
+          "@type": "Organization",
+          "name": "MIT SMART"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "name": "Maoqing Yao",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "AgiBot"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "name": "Brian Sheil",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "University of Cambridge"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "name": "Hesheng Wang",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Shanghai Jiao Tong University"
+        }
+      ]
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "arXiv"
+  },
+  "url": "https://stellarvla.github.io/",
+  "image": "https://YOUR_DOMAIN.com/static/images/social_preview.png",
+  "keywords": [
+    "vision language action model",
+    "continual learning",
+    "skill knowledge",
+    "expert routing",
+    "robot learning"
+  ],
+  "abstract": "Vision-language-action (VLA) models show promising knowledge accumulation ability through pretraining, yet continual learning remains challenging. Existing continual imitation learning (CIL) methods often require additional parameters or modules, limiting scalability for large VLA models. We propose Stellar VLA, a knowledge-driven CIL framework without parameter growth, featuring two variants: T-Stellar for task-centric modeling and \modify{TS-Stellar for hierarchical modeling of reusable skills across tasks}. Stellar VLA jointly optimizes task representations and a self-evolving knowledge space, with \modify{knowledge-posterior-guided} expert routing \modify{using} knowledge relations and Top-K semantic embeddings for task specialization. Experiments on LIBERO demonstrate strong performance against VLA and CIL baselines with only 1% replay. Dual-arm real-world experiments validate knowledge transfer across embodiments and scenes. TS-Stellar excels in hierarchical manipulation, while visualizations demonstrate knowledge retention and task discovery. ",
+  "citation": "@article{wu2025continually,\n  title={Continually evolving skill knowledge in vision language action model},\n  author={Wu, Yuxuan and Wang, Guangming and Yang, Zhiheng and Deng, Tianchen and Yao, Maoqing and Sheil, Brian and Wang, Hesheng},\n  journal={arXiv preprint arXiv:2511.18085},\n  year={2025}\n}",
+  "isAccessibleForFree": true,
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "mainEntity": {
+    "@type": "WebPage",
+    "@id": "https://stellarvla.github.io/"
+  },
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "RESEARCH_AREA_1"
+    },
+    {
+      "@type": "Thing",
+      "name": "RESEARCH_AREA_2"
+    }
+  ]
+}
   </script>
   
   <!-- Website/Organization Structured Data -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "INSTITUTION_OR_LAB_NAME",
-    "url": "https://YOUR_INSTITUTION_WEBSITE.com",
-    "logo": "https://YOUR_DOMAIN.com/static/images/favicon.ico",
-    "sameAs": [
-      "https://twitter.com/YOUR_TWITTER_HANDLE",
-      "https://github.com/YOUR_GITHUB_USERNAME"
-    ]
-  }
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "INSTITUTION_OR_LAB_NAME",
+  "url": "https://YOUR_INSTITUTION_WEBSITE.com",
+  "logo": "https://YOUR_DOMAIN.com/static/images/favicon.ico",
+  "sameAs": [
+    "https://twitter.com/YOUR_TWITTER_HANDLE",
+    "https://github.com/YOUR_GITHUB_USERNAME"
+  ]
+}
   </script>
 </head>
 <body>
@@ -186,7 +262,7 @@
   </button>
 
   <main id="main-content">
-  <section class="hero">
+  <section class="hero publication-intro">
     <div class="hero-body">
       <div class="container is-max-desktop">
         <div class="columns is-centered">
@@ -194,30 +270,45 @@
             <!-- TODO: Replace with your paper title -->
             <h1 class="title is-1 publication-title">Continually Evolving Skill Knowledge in Vision Language Action Model</h1>
             <div class="is-size-5 publication-authors">
-              <!-- TODO: Replace with your paper authors and their personal links -->
-              <span class="author-block">
-                Anonymous Authors
-              </span>
-                  </div>
+              <span class="author-block">Yuxuan Wu<sup>1,2</sup></span>
+              <span class="author-block">Guangming Wang<sup>3</sup></span>
+              <span class="author-block">Zhiheng Yang<sup>1</sup></span>
+              <span class="author-block">Tianchen Deng<sup>1,4,5</sup></span>
+              <span class="author-block">Maoqing Yao<sup>6</sup></span>
+              <span class="author-block">Brian Sheil<sup>3</sup></span>
+              <span class="author-block">Hesheng Wang<sup>1,*</sup></span>
+            </div>
+            <div class="publication-affiliations">
+              <span class="affiliation-block"><sup>1</sup> Shanghai Jiao Tong University</span>
+              <span class="affiliation-block"><sup>2</sup> Shanghai Innovation Institute</span>
+              <span class="affiliation-block"><sup>3</sup> University of Cambridge</span>
+              <span class="affiliation-block"><sup>4</sup> Nanyang Technological University</span>
+              <span class="affiliation-block"><sup>5</sup> MIT SMART</span>
+              <span class="affiliation-block"><sup>6</sup> AgiBot</span>
+            </div>
+            <p class="publication-correspondence"><sup>*</sup> Corresponding author: <a href="mailto:wanghesheng@sjtu.edu.cn">Hesheng Wang</a></p>
 
                   <div class="column has-text-centered">
                     <div class="publication-links">
-                         <!-- TODO: Update with your arXiv paper ID -->
+                      <span class="link-block">
+                        <a href="https://arxiv.org/abs/2511.18085" target="_blank" rel="noopener noreferrer" class="external-link button is-normal is-rounded is-dark">
+                          <span class="icon"><i class="ai ai-arxiv"></i></span>
+                          <span>arXiv</span>
+                        </a>
+                      </span>
 
 
                   <!-- TODO: Replace with your GitHub repository URL -->
                   <span class="link-block">
-                    <a href="https.github.io/" target="_blank"
+                    <a href="https://github.com/IRMVLab/StellarVLA" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fab fa-github"></i>
                     </span>
-                    <span>Code(Coming Soon)</span>
+                    <span>Code</span>
                   </a>
                 </span>
 
-                </a>
-              </span>
             </div>
           </div>
         </div>
@@ -254,7 +345,7 @@
         <div class="content has-text-justified">
           <!-- TODO: Replace with your paper abstract -->
           <p>
-            Vision-language-action (VLA) models show promising knowledge accumulation ability from pretraining, yet continual learning in VLA remains challenging, especially for efficient adaptation. Existing continual imitation learning (CIL) methods often rely on additional parameters or external modules, limiting scalability for large VLA models. We propose Stellar VLA, a knowledge-driven CIL framework without increasing network parameters. Two progressively extended variants are designed: T-Stellar for flat task-centric modeling and TS-Stellar for hierarchical task–skill structure. Stellar VLA enables self-evolving knowledge learning by jointly optimizing task representations and a learned knowledge space. We propose a knowledge-guided expert routing mechanism conditioned on knowledge relation and Top-K semantic embeddings, enabling task specialization without increasing model size. Experiments on the LIBERO benchmark show that Stellar VLAs achieve strong performance among both VLA and CIL baselines, using only 1% data replay. Real-world evaluation on a dual-arm platform with distinct embodiment and scene configurations validates effective knowledge transfer. TS-Stellar excels in hierarchical manipulation, and visualizations reveal robust knowledge retention and task discovery.
+            Vision-language-action (VLA) models show promising knowledge accumulation ability through pretraining, yet continual learning remains challenging. Existing continual imitation learning (CIL) methods often require additional parameters or modules, limiting scalability for large VLA models. We propose Stellar VLA, a knowledge-driven CIL framework without parameter growth, featuring two variants: T-Stellar for task-centric modeling and \modify{TS-Stellar for hierarchical modeling of reusable skills across tasks}. Stellar VLA jointly optimizes task representations and a self-evolving knowledge space, with \modify{knowledge-posterior-guided} expert routing \modify{using} knowledge relations and Top-K semantic embeddings for task specialization. Experiments on LIBERO demonstrate strong performance against VLA and CIL baselines with only 1% replay. Dual-arm real-world experiments validate knowledge transfer across embodiments and scenes. TS-Stellar excels in hierarchical manipulation, while visualizations demonstrate knowledge retention and task discovery.
           </p>
       </div>
     </div>
@@ -274,7 +365,7 @@
         </div>
         <div class="content has-text-justified">
           <p>
-            Lifelong VLA agents must learn new tasks without forgetting old ones. Existing CIL techniques help in smaller policies, but scaling them to large VLAs often incurs heavy training and storage costs from growing task-specific modules. Replay-based methods are promising, yet they leave a key question open: can continual learning improve through better task-skill knowledge modeling, not larger model growth? Our Stellar VLA answers this question by learning a Dirichlet-Process-based knowledge space and using knowledge-guided expert routing for adaptive specialization, enabling strong continual learning with lower replay dependence in both simulation and real-world manipulation.
+            Lifelong VLA agents must learn new tasks without forgetting old ones. Existing CIL techniques help in smaller policies, but scaling them to large VLAs often incurs heavy training and storage costs from growing task-specific modules. Replay-based methods are promising, yet they leave a key question open: can continual learning improve through better task-skill knowledge modeling, not larger model growth? Our Stellar VLA answers this question by learning a task/task-skill knowledge space and using knowledge-guided expert routing for adaptive specialization, enabling strong continual learning with lower replay dependence in both simulation and real-world manipulation.
           </p> 
         </div>
       </div>
@@ -295,7 +386,7 @@
             <p><em>Figure 1. Overall architecture of Stellar VLA.</em></p>
           </div>
           <p>
-            Our goal is to continually evolve task-relevant knowledge, enabling Stellar VLA to acquire new skills while mitigating forgetting of prior tasks. We use CLIP and a FiLM-conditioned ResNet to encode language and visual inputs, respectively. Task-centric representations <em>z</em> and the knowledge space are jointly learned through knowledge update and latent aggregation. The learned knowledge prior further guides the MoE action head for motion prediction.
+            Stellar VLA learns task-centric latent representations and an evolving knowledge space to capture task and skill relationships for continual imitation learning. The learned knowledge guides expert routing in the MoE action head, balancing parameter sharing and specialization without increasing model size. We instantiate this framework with two knowledge models: T-Stellar for task-level modeling and TS-Stellar for hierarchical task-skill modeling that captures reusable skills across tasks.
           </p>
         </div>
       </div>
@@ -398,14 +489,14 @@
         <h2 class="title is-3">Simulation Results</h2>
         <div class="content has-text-justified">
           <p>
-            We evaluate our models on the LIBERO benchmark, including LIBERO-goal, LIBERO-long, and LIBERO-30*, a 30-task subset of LIBERO-90 (see Appendix D.1 for construction), to assess performance under diverse goals, long-horizon reasoning, and multi-task settings. Demonstration data includes static and wrist camera observations, while actions contain end-effector poses and gripper states. To comprehensively evaluate continual learning capability, we compare our method against both advanced VLA baselines and classical robotic continual imitation learning approaches.
+            We evaluate our models on the LIBERO benchmark, including LIBERO-goal, LIBERO-long, and LIBERO-30*, a 30-task subset of LIBERO-90 (see Appendix D.1 for construction), to assess performance under diverse goals, long-horizon reasoning, and multi-task settings. To comprehensively evaluate continual learning capability, we compare our method against both advanced VLA baselines and classical robotic continual imitation learning approaches.
           </p>
           <div class="has-text-centered">
             <img src="static/images/sim_sr.png" alt="Simulation success rate results" loading="lazy" />
             <p><em>Table 2. Success-rate curves across LIBERO simulation benchmarks.</em></p>
           </div>
           <p>
-            To illustrate continual skill evolution in Stellar VLA, we visualize the learned knowledge space on LIBERO-long. The t-SNE results show that T-Stellar forms clear task-level clusters, while TS-Stellar reveals shared structure through subskill-level connectivity. For example, deep and light green clusters partially overlap because both contain the shared subgoal "put moka on stove." In contrast, prior VLA baselines tend to either mix latent representations or fail to preserve meaningful task relationships in feature space.
+            To illustrate continual skill evolution in Stellar VLA, we visualize the learned knowledge space on LIBERO-long. The t-SNE results show that T-Stellar forms clear task-level clusters, while TS-Stellar reveals shared structure through subskill-level connectivity. For example, deep and light green clusters partially overlap because both contain the shared subgoal "put moka on stove." In contrast, VLA baselines tend to either mix latent representations or fail to preserve meaningful task relationships in feature space.
           </p>
           <div class="has-text-centered">
             <img src="static/images/tsne_01.png" alt="Simulation t-SNE visualization" loading="lazy" />
@@ -428,12 +519,11 @@
           <span class="copy-text">Copy</span>
         </button>
       </div>
-      <pre id="bibtex-code"><code>@article{stellarvla2026,
-  title={Continually Evolving Skill Knowledge in Vision Language Action Model},
-  author={Anonymous},
-  journal={Under Review},
-  year={2026},
-  note={Code will be released soon}
+      <pre id="bibtex-code"><code>@article{wu2025continually,
+  title={Continually evolving skill knowledge in vision language action model},
+  author={Wu, Yuxuan and Wang, Guangming and Yang, Zhiheng and Deng, Tianchen and Yao, Maoqing and Sheil, Brian and Wang, Hesheng},
+  journal={arXiv preprint arXiv:2511.18085},
+  year={2025}
 }</code></pre>
     </div>
 </section>
