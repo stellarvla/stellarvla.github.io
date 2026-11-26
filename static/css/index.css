@@ -162,6 +162,19 @@ body {
     display: inline-block;
 }
 
+.publication-venue-inline {
+    margin-top: 0;
+    font-size: 1.15rem;
+}
+
+.publication-links-inline {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
 .publication-awards {
     color: #ef4444;
     width: fit-content;
